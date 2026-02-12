@@ -1,7 +1,8 @@
 <!doctype html>
-<html lang="en">
+<html lang="th">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="stylesheet" href="style.css" />
     <title>Valentine Letter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Aldrich&family=Pixelify+Sans:wght@400..700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Aldrich&family=Pixelify+Sans:wght@400..700&family=Sarabun:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <title>Document</title>
@@ -37,10 +38,30 @@
         </div>
 
         <p id="final-text" class="final-text" style="display: none">
-          <strong>Valentine Date:</strong> Meow Restaurant at 7pm. Dress fancy!
+          <strong>Note :</strong> Happy Valentine's Day !!!
         </p>
+        
+        <button id="next-btn" class="next-btn" style="display: none">
+          Next →
+        </button>
       </div>
     </div>
+    
+    <!-- Memory Page -->
+    <div id="memory-container" style="display: none;">
+      <div class="memory-window">
+        <h1 id="memory-title">Our Valentine Memories</h1>
+        
+        <div id="image-gallery" class="image-gallery">
+          <!-- รูปภาพจะถูกแสดงที่นี่ -->
+        </div>
+        
+        <div class="memory-buttons">
+          <button id="back-btn" class="back-btn">← Back</button>
+        </div>
+      </div>
+    </div>
+    
     <script src="script.js"></script>
   </body>
 </html>
